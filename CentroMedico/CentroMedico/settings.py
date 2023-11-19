@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'TiendaTaller.urls'
+ROOT_URLCONF = 'CentroMedico.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'TiendaTaller.wsgi.application'
+WSGI_APPLICATION = 'CentroMedico.wsgi.application'
 
 
 # Database
@@ -132,4 +132,4 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-STATIC_ROOT = 'TiendaTaller\core\static'
+STATIC_ROOT = 'CentroMedico\core\static'
