@@ -22,6 +22,9 @@ def cajero(request):
 def home(request):
     return render(request, "core/home.html")
 
+def calendario (request):
+    return render(request,"core/calendario.html")
+
 
 def Usuario(request, action, id):
     data = {"mesg": "", "form": UsuarioForm, "action": action, "id": id}
