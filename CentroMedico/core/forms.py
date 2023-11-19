@@ -6,6 +6,11 @@ class UsuarioForm(ModelForm):
     class Meta:
         model = Usuario
         fields = ['rut', 'nombre', 'apellido', 'tipo_de_usuario']
+        widgets = {
+            'password': forms.PasswordInput(), 
+        }
+
+    
 
     def clean_nombre(self):
         nombre = self.cleaned_data['nombre']

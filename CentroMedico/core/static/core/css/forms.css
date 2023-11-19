@@ -6,6 +6,7 @@
     width: 90px;
 }
 
+  
 
 
 #tabla_datos {
@@ -139,6 +140,10 @@
     margin-right: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 
 #logincolor{
